@@ -1,0 +1,55 @@
+.wrapper {
+    padding: 10px 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    & + .wrapper {
+        margin-left: 10px;
+    }
+
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    text-align: center;
+
+}
+
+.icon + .title,
+.title + .icon {
+    margin-left: 8px;
+}
+
+.icon {
+    text-align: center;
+    width: 20px;
+    color: #65b281;
+}
+
+.outline {
+    border: 1px solid #269755;
+    color: #65b281;
+    &:hover {
+        background-color: #ebebeb;
+    }
+}
+
+.primary {
+    background-color: #269755;
+    border: 1px solid transparent;
+    color: #fff;
+
+    &:hover {
+        background-color: #2f7e50;
+    }
+}
+
+.large {
+    width: 100%;
+}

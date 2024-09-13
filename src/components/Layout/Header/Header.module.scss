@@ -1,0 +1,28 @@
+.wrapper {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 26px;
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: absolute;
+}
+.describe {
+    font-size: 1.6rem;
+}
+.name {
+    color: var(--text-color);
+    font-weight: 600;
+}
+.contact {
+    font-size: 1.4rem;
+    color: gray;
+}
+.logo img {
+    height: auto;
+    width: 140px;
+    object-fit: cover;
+}
